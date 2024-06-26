@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --background-black: #00030c;
+    --primary-white: #ffffff;
+    --secundary-grey: #c0c0c0;
+    --primary-grey: #f9f9f9;
+    --blu-button: #167BF7;
+    --primary-font: 'inter';
+}
+
+body {
+    background-color: var(--background-black);
+    color: var(--primary-white);
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.primary {
+    background-image: url(./assets/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.container__box {
+    margin: 0 6em;
+}
+
+.container__title {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__image {
+    margin: 1em 0 2em 0;
+}
+
+.container__button {
+    background-color: var(--blu-button);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--primary-white);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 1em;
+    font-size: 16px;
+}
+
+.sec {
+    background-color: transparent;
+    border: 2px solid var(--primary-white);
+}
+
+.container__alert {
+    font-size: 12px;
+    color: var(--secundary-grey);
+}
+
+.secundary__img {
+    width: 80%;
+}
+
+.container_description {
+    padding: 2em;
+}
+
+.secundary {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.title__description {
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 0.1em;
+}
+
+.text__description {
+    color: var(--secundary-grey);
+
+}
+
+.tertiary {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.devices {
+    text-align: center;
+}
+
+.devices__list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.devices_title {
+    font-size: 48px;
+    color: var(--primary-white);
+}
+
+.item-list {
+    font-size: 32px;
+    color: var(--primary-white);
+}
+
+.footer {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.footer__list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.link__list a {
+    margin-left: 1em;
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--primary-white);
+}
+
+.footer__text {
+    margin: 2.5em;
+    font-size: 12px;
+    color: var(--secundary-grey);
+}
+
+.link__list a:hover {
+    color: var(--blu-button);
+}
